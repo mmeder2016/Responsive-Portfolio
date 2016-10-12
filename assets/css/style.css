@@ -75,14 +75,26 @@ aside {
 }
 .index-me-img { /*index page*/
 	margin-right:  10px;
+	width:100px;
+	height:100px;
+	float: left;
 }
 .portfolio { /*portfolio page*/
 	float: left;
 	padding: 25px;
 	width: 650px;
 }
-.portfolio-imgs { /*portfolio page*/
+.portfolio-imgs-left { /*portfolio page*/
 	margin: 15px 0px 15px;
+	width:285px;
+	height:200px;
+	float: left;
+}
+.portfolio-imgs-right { /*portfolio page*/
+	margin: 15px 0px 15px;
+	width:285px;
+	height:200px;
+	float: right;
 }
 .contact { /*contact page*/
 	float: left;
